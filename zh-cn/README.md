@@ -11,15 +11,3 @@ GSrpc是一款结合代码生成技术实现的一种高效/支持多种编程�
 贡献代码或者完善本指南请遵循GitHub惯例：
 1. fork 代码库；
 2. 提交 Pull request。
-
-
-```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
